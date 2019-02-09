@@ -114,6 +114,7 @@ def load_data(ftrain, ftest, frela, fw2v, args):
     print "vocab size: " + str(len(vocab))
 
     print "loading word2vec vectors..."
+    #w2v = load_bin_vec(fw2v, vocab)
     w2v = load_word_vec(fw2v)
     add_unknown_words(w2v, vocab, min_df=args.min_freq)
     print "word2vec loaded!"
