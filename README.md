@@ -10,7 +10,8 @@ PyTorch implementation of Relcation Classification model described in our Neuroc
 * ``panda 0.19.1``
 
 ### Datasets and word embeddings
-* Dataset are already included in the directory ``./SemEval2010_task8_all_data``.
+* Dataset is already included in the directory ``./SemEval2010_task8_all_data``.
+* Embedding file ``./data/word_vecs.pkl`` is generated from the released word embedding file ``GoogleNews-vectors-negative300.bin`` (http://code.google.com/p/word2vec/) by Mikolov.
 
 
 ### Training
